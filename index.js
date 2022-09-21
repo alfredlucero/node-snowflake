@@ -12,6 +12,7 @@ snowflake.configure({
 const connectionPool = snowflake.createPool(
   // connection options
   {
+    // Make sure to use the https://orgname456-accountname123.snowflakecomputing.com i.e. orgname456-accountname123
     account: `${process.env.SNOWFLAKE_ACCOUNT_ID}`,
     username: process.env.SNOWFLAKE_USERNAME,
     password: process.env.SNOWFLAKE_PASSWORD,
