@@ -1,0 +1,22 @@
+{
+  "name": "node-snowflake-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredlucero/node-snowflake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredlucero/node-snowflake/issues"
+  },
+  "homepage": "https://github.com/alfredlucero/node-snowflake#readme",
+  "dependencies": {
+    "snowflake-sdk": "^1.6.13"
+  }
+}
