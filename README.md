@@ -3,7 +3,7 @@
 Export the environment variables in your terminal given your Snowflake account
 
 ```bash
-export SNOWFLAKE_ACCOUNT_ID=snowflakeaccount.id
+export SNOWFLAKE_ACCOUNT_ID=snowflakeorgname-accountname
 export SNOWFLAKE_USERNAME=snowflakeusername
 export SNOWFLAKE_PASSWORD=snowflakepassword
 ```
